@@ -10,7 +10,8 @@ To run this project, you will need to install the following libraries:
 - openai
 - all the requirements included in requirements.txt (you can install this by using pip install -r requirements.txt)
 
-You will also need to create a Telegram bot and get an OpenAI API key.
+You will also need to create a Telegram bot (Follow this guide: https://core.telegram.org/bots#how-do-i-create-a-bot) and get an OpenAI API key (create an account on openai and go https://platform.openai.com/account/api-keys to get api key).
+Either the keys are essential.
 
 ## Usage
 
