@@ -21,7 +21,14 @@ To use this bot, first clone the repository:
 git clone https://github.com/snor09/chatgpt-assistant.git
 ```
 
+Install all the requirements in your enviroment using
+
+```
+pip install -r requirements.txt
+```
+
 Then, create a file named `config.ini` in the root directory of the project and add the following configuration variables:
+
 ```
 [openai]
 API_KEY = <insert-your-openai-key>
@@ -33,6 +40,7 @@ ALLOWED_USERS= <insert-list-of-allowed-users-ids> # You can insert a list of ids
 NOT_ALLOWED_USER = <insert-default-string-for-not-allowed-users>
 NOT_VALID_REQUEST = <insert-default-string-for-invalid-requests>
 ```
+
 Next, navigate to the project directory and start the bot:
 
 ```
